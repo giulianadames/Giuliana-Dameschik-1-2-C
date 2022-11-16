@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giuliana Dameschik 1°2°C</title>
+    <link rel="icon" href="img/logo2.png" type="image/gif" sizes="25x25">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap y otras librerías -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/jquery.smartcart/css/smart_cart.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="estilos.css">
+   
+</head>
+
+<body>
+
+
+   <!---Nav-->    
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="color-fondo">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"  href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion" aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navegacion">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link"  href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="faq.html">Preguntas frecuentes</a></li>             
+            </ul>
+        </div>
+</nav>
+<header class="container-fluid fondonosotros">
+    <div class="container-fluid">
+        <div class="row d-flex flex-row-reverse">
+
+            <div class=" mt-5">
+                <h1>COFFE STORE</h1>
+                <p class="subtitulo">Descubrí la magia del café</p>
+            </div>
+        </div>
+      </div>
+</header>
+<!---fin nav-->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-9">
+               
+                <a name="productos">
+                <h2 class="text-center mt-3" >Pasteleria</h2>
+                <div id="productos" class="row border-top">
+                    <!-- Acá vienen los productos -->
+                </div>
+                </a>
+
+                <a name="cafes">
+                <h2 class="text-center mt-3" >Nuestro café</h2>
+                <div id="cafe" class="row border-top">
+                    <!-- Acá vienen los cafes-->
+                </div>
+                </a>
+
+                <a name="accesorios">
+                <h2 class="text-center mt-3" >Accesorios</h2>
+                <div id="accesorios" class="row border-top">
+                    <!-- Acá vienen los accesorios -->
+                </div>
+                </a>
+               
+            </div>
+            <div class="col-md-3 mt-3">
+                <h2 >Mi pedido</h2>
+
+                <div class="border-top " id="smartcart"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript, Bootstrap, jQuery -->
+    <script src="vendors/jquery/jquery-3.6.1.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/jquery.smartcart/js/jquery.smartCart.js"></script>
+    <script src="vendors/jquery.owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+    <!--Footer -->
+<footer>
+            
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row pt-2 mt-3">
+            
+            <div class="col-md-6 text-light">
+                <p>Giuliana Dameschik | 1°2°C
+                </p>
+            </div>
+            
+            <div class="col-md-6">
+                
+                <ul class="list-inline d-flex justify-content-md-end">
+                    
+                    <li><a href="https://es-la.facebook.com/" target="_blank" alt="fb" title="facebook"><i class="bi bi-facebook text-light px-1"></i></a></li>
+                    
+                    <li><a href="https://www.instagram.com/" alt="instagram" target="_blank" title="instagram"><i class="bi bi-instagram text-light px-1"></i></a></li>
+                    
+                    <li> <a href="https://twitter.com/?lang=es" alt="twitter"  target="_blank" title="twitter"><i class="bi bi-twitter text-light px-1"></i></a></li>                    
+                </ul>
+            </div>
+            
+        </div>
+        
+    </div>
+  </footer>
+  <!-- Fin footer -->
+
+    <!-- Scripts -->
+    <script src="js/productos.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
